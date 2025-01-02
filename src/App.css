@@ -1,0 +1,127 @@
+.header-section {
+  display: grid;
+  grid-template-columns: 0.4fr 0.2fr 0.4fr;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(251, 249, 246);
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.center-section {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.left-section {
+  text-align: left;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.right-section {
+  text-align: right;
+  padding: 10px;
+  padding-right: 15px;
+}
+
+.button-2048 {
+  background-color: bisque;
+  font-weight: bold;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 35px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.button-2048:hover {
+  background-color: #f0e68c;
+}
+
+.button-2048:active {
+  background-color: aqua;
+}
+
+.newgame-button {
+  background-color: bisque;
+  font-weight: bold;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.newgame-button:hover {
+  background-color: #f0e68c;
+}
+
+.newgame-button:active {
+  background-color: aqua;
+}
+
+/* for game board */
+
+.gameboard-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  max-height: 500px;
+  height: 100%;
+  flex-direction: column;
+}
+
+#new-game {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #8f7a66;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#new-game:hover {
+  background-color: #776e65;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  background-color: #bbada0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevents grid from overflowing */
+}
+
+.gameboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  background-color: #bbada0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
