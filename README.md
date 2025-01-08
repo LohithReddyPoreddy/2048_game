@@ -1,5 +1,5 @@
 # 2048 Game
-
+[2048 Game](https://lohithreddyporeddy.github.io/2048_game/)
 A fully functional implementation of the classic **2048 game**, built using **React**, **CSS**, and **JavaScript**. This project provides a smooth and responsive gameplay experience with a clean and intuitive interface.
 
 ## Features
@@ -11,9 +11,6 @@ A fully functional implementation of the classic **2048 game**, built using **Re
 - **Score Tracking**: Keeps track of the user's score, increasing upon successful tile merges.
 - **Restart Functionality**: A "New Game" button to restart the game at any time.
 
-## Screenshots
-
-> Add relevant screenshots of the game interface, preferably showcasing dynamic gameplay and scoring.
 
 ## Getting Started
 
